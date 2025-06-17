@@ -1,4 +1,4 @@
-# Projeto Interective Rating Component
+# Projeto Interactive Rating Component
 
 Este projeto é o meu primeiro projeto do Frontend Mentor de JavaScript que realizei sozinho. O objetivo principal deste projeto foi treinar minhas habilidades e conhecimentos adquiridos em JavaScript (JS).<br>
 
