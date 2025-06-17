@@ -1,0 +1,124 @@
+main {
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-rating {
+     background-color: hsl(213, 19%, 18%);
+     padding: 50px;
+     max-width: 400px;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+}
+
+.container-rating .icon-star {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(217, 12%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.container-rating h1 {
+    color: hsl(0, 100%, 100%);
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.container-rating p {
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.container-rating .numbers {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 25px 0;
+    color: hsl(0, 100%, 100%);
+}
+
+.container-rating .numbers .number {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: hsl(217, 12%, 63%);
+}
+
+.container-rating .numbers .number:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+}
+
+.number.ativo {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(213, 19%, 18%);
+}
+
+.btn-submit {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 15px;
+    padding: 8px 0;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(213, 19%, 18%);
+}
+
+.container-thanks {
+    background-color: hsl(213, 19%, 18%);
+    padding: 50px;
+    max-width: 400px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-thanks h2 {
+    color: hsl(0, 100%, 100%);
+    font-weight: 700;
+    margin: 15px;
+}
+
+.container-thanks .message {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+
+.hidden {
+    display: none;
+}
+
+.selected-message {
+    background-color: hsl(216, 12%, 8%);;
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+

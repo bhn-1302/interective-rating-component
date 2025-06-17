@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="interactive rating component">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+
+    <title>Interective Rating Component</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+</head>
+<body>
+    <main>
+        <div class="container-rating">
+            <img class="icon-star" src="./src/images/icon-star.svg" alt="icon star">
+
+            <h1>How did we do?</h1>
+
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+            <ul class="numbers">
+                <li class="number">1</li>
+                <li class="number">2</li>
+                <li class="number">3</li>
+                <li class="number">4</li>
+                <li class="number">5</li>
+            </ul>
+
+            <button id="btn" class="btn-submit">SUBMIT</button>
+        </div>
+
+        <div class="container-thanks hidden">
+            <img src="./src/images/illustration-thank-you.svg" alt="thank-you message">
+
+            <p class="selected-message">You selected <span id="rating-selected"></span> out of 5</p>
+
+            <h2>Thank you!</h2>
+
+            <p class="message">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="./src/scripts/index.js"></script>
+</body>
+</html>
